@@ -1,0 +1,21 @@
+.reaction-button {
+  color: antiquewhite;
+  width: 140px;
+  height: 75px;
+  border: solid #be3d02;
+  border-width: 2px;
+  border-radius: 3px;
+  background-color: #039e0b;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.reaction-button.active {
+  color: #8f0404;
+}
+
+.reaction-button span {
+  font-size: 26px;
+  font-weight: 800;
+}
